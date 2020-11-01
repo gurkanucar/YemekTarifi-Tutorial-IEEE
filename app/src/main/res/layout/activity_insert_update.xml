@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertUpdate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/foodName"
+            android:layout_width="match_parent"
+            android:hint="Food name"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/foodIngredients"
+            android:layout_width="match_parent"
+            android:hint="Food ingredients"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <EditText
+            android:id="@+id/foodRecipe"
+            android:layout_width="match_parent"
+            android:hint="Food recipe"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+       <ImageView
+           android:id="@+id/imageButton"
+           android:layout_width="120dp"
+           android:background="@drawable/ic_baseline_add_circle_outline_24"
+           android:layout_gravity="center"
+           android:layout_height="120dp">
+       </ImageView>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="25dp"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/saveButton"
+               android:layout_width="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="25dp"
+               android:text="Save"
+               android:layout_height="wrap_content">
+           </Button>
+
+           <Button
+               android:id="@+id/deleteButton"
+               android:layout_width="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="25dp"
+               android:text="Delete"
+               android:layout_height="wrap_content">
+           </Button>
+       </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
